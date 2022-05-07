@@ -4,7 +4,7 @@ import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import HomePage from "./components/home/HomePage";
 import NavbarPage from "./components/navbar/NavbarPage";
-import Portfolios from "./portfolios/Portfolios";
+import Portfolios from "./components/portfolios/Portfolios";
 
 function App() {
   return (

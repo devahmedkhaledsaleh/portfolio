@@ -5,10 +5,12 @@ import Resume from "../resume/Resume";
 import Service from "../service/Service";
 import Skills from "../skills/Skills";
 
+
 const About = () => {
   return (
-    <div className="w-full p-5 h-[calc(100vh-80px)] md:w-[calc(100%-105px)]  md:h-screen  flex justify-center	items-center md:py-16">
-      <div className="p-2.5 bg-[#212121] rounded-xl flex w-full h-full overflow-hidden overflow-y-auto md:p-2.5">
+    <div className="w-full p-5 h-[calc(100vh-80px)] md:w-[calc(100%-105px)]  md:h-screen  flex justify-center	items-center md:py-16"
+    >
+      <div className="p-5 my-[150px] md:my-0 bg-[#212121] rounded-xl flex w-full h-full overflow-hidden overflow-y-auto md:p-2.5">
         <div className="container">
           <div className="py-4">
             <p className="text-[#888] text-center mb-2">My Intro</p>
@@ -16,8 +18,8 @@ const About = () => {
               About <span className="text-[#ff651c]">Me</span>
             </h1>
             <div className="bg-[#ff651c] h-1 w-28 rounded m-auto	relative">
-              <span className="absolute bg-[#212121] h-full w-1 left-2"></span>
-              <span className="absolute bg-[#212121] h-full w-1 left-0"></span>
+              <span className="absolute bg-[#212121] h-full w-1 left-2 animate-[headingMove_10s_linear_infinite]"></span>
+              <span className="absolute bg-[#212121] h-full w-1 left-0 animate-[headingMove_10s_linear_infinite]"></span>
             </div>
           </div>
           <div>
@@ -106,7 +108,7 @@ const About = () => {
                   </div>
                   <div className="my-4">
                     <a
-                      href="#"
+                      href="https://github.com/devahmedkhaledsaleh"
                       className="bg-[#ff651c] p-2.5	 text-white rounded border-2 border-[#ff651c] border-solid transition ease-in-out duration-500 hover:bg-transparent"
                     >
                       Downlaod Cv
@@ -114,14 +116,14 @@ const About = () => {
                     </a>
                     <ul className="flex justify-start	items-center mt-5	">
                       <li className="group">
-                        <a href="#">
+                        <a href="https://www.linkedin.com/in/ahmedsaleh96/">
                           <span className="text-[#888] mx-2.5 text-3xl transition ease-in-out duration-500 group-hover:text-[#ff651c]">
                             <i className="fab fa-linkedin"></i>
                           </span>
                         </a>
                       </li>
                       <li className="group">
-                        <a href="#">
+                        <a href="https://github.com/devahmedkhaledsaleh">
                           <span className="text-[#888] mx-2.5 text-3xl transition ease-in-out duration-500 group-hover:text-[#ff651c]">
                             <i className="fab fa-github-square"></i>
                           </span>
