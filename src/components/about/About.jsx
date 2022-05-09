@@ -144,8 +144,8 @@ const About = () => {
                 My <span className="text-[#ff651c]">Resume</span>
               </h1>
               <div className="bg-[#ff651c] h-1 w-28 rounded m-auto	relative">
-                <span className="absolute bg-[#212121] h-full w-1 left-2"></span>
-                <span className="absolute bg-[#212121] h-full w-1 left-0"></span>
+                <span className="absolute bg-[#212121] h-full w-1 left-2 animate-[headingMove_10s_linear_infinite]"></span>
+                <span className="absolute bg-[#212121] h-full w-1 left-0 animate-[headingMove_10s_linear_infinite]"></span>
               </div>
             </div>
             <div className="columns-1 md:columns-2 md:flex md:justify-center	md:items-center">
@@ -201,8 +201,8 @@ const About = () => {
                 My <span className="text-[#ff651c]">Skills</span>
               </h1>
               <div className="bg-[#ff651c] h-1 w-28 rounded m-auto	relative">
-                <span className="absolute bg-[#212121] h-full w-1 left-2"></span>
-                <span className="absolute bg-[#212121] h-full w-1 left-0"></span>
+                <span className="absolute bg-[#212121] h-full w-1 left-2 animate-[headingMove_10s_linear_infinite]"></span>
+                <span className="absolute bg-[#212121] h-full w-1 left-0 animate-[headingMove_10s_linear_infinite]"></span>
               </div>
             </div>
             <div className="columns-1 lg:columns-2 lg:flex lg:justify-center	lg:items-center">
@@ -232,8 +232,8 @@ const About = () => {
                 My <span className="text-[#ff651c]">Services</span>
               </h1>
               <div className="bg-[#ff651c] h-1 w-28 rounded m-auto	relative">
-                <span className="absolute bg-[#212121] h-full w-1 left-2"></span>
-                <span className="absolute bg-[#212121] h-full w-1 left-0"></span>
+                <span className="absolute bg-[#212121] h-full w-1 left-2 animate-[headingMove_10s_linear_infinite]"></span>
+                <span className="absolute bg-[#212121] h-full w-1 left-0 animate-[headingMove_10s_linear_infinite]"></span>
               </div>
               <p className="text-[#888] text-center my-5">
                 Lorem Ipsum is simply dummy text of the printing and type
@@ -310,8 +310,8 @@ const About = () => {
                 Fun <span className="text-[#ff651c]">Facts</span>
               </h1>
               <div className="bg-[#ff651c] h-1 w-28 rounded m-auto	relative">
-                <span className="absolute bg-[#212121] h-full w-1 left-2"></span>
-                <span className="absolute bg-[#212121] h-full w-1 left-0"></span>
+                <span className="absolute bg-[#212121] h-full w-1 left-2 animate-[headingMove_10s_linear_infinite]"></span>
+                <span className="absolute bg-[#212121] h-full w-1 left-0 animate-[headingMove_10s_linear_infinite]"></span>
               </div>
             </div>
             <div className="columns-1 md:columns-2 lg:columns-4 md:flex-wrap md:flex md:justify-center	md:items-center">
